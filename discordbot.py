@@ -14,7 +14,7 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async おやす(ctx):
+async def おやす(ctx):
     await ctx.send('おやすみなさい！！')
 
 
