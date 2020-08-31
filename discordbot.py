@@ -18,7 +18,7 @@ async def おやす(ctx):
     await ctx.send('おやすみなさい！！')
 
 @bot.command()
-async def HBB(ctx):
+async def HPB(ctx):
     await ctx.send('お誕生日おめでとうございます！！')
 
 
