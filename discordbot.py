@@ -17,5 +17,9 @@ async def on_command_error(ctx, error):
 async def おやす(ctx):
     await ctx.send('おやすみなさい！！')
 
+@bot.command()
+async def HBB(ctx):
+    await ctx.send('お誕生日おめでとうございます！！')
+
 
 bot.run(token)
