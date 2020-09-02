@@ -12,7 +12,10 @@ async def on_command_error(ctx, error):
     error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
     await ctx.send(error_msg)
 
-
+@bot.command()
+async def bot_status
+    await ctx.send('現在一時停止中')
+    
 @bot.command()
 async def おやす(ctx):
     await ctx.send('おやすみなさい！！')
